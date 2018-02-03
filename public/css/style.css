@@ -10,6 +10,12 @@
 	position: relative;
   width:100%;
   margin-top: 10px;
+
+  max-width: 38rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header .name {
@@ -81,17 +87,22 @@
 	}
 
 	#s-about article > div {
-		width: 280px;
+    width: 280px;
 		height: 280px;
 		margin: 10px;
 	}
 }
 
 @media only screen and (max-width: 610px) {
-	#s-about .image {
-		width: 180px;
+  .header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #s-about .image {
+    width: 180px;
 		height: 180px;
-	}
+  }
 
 	#s-about article > div {
 		width: 200px;
@@ -103,7 +114,8 @@
 @media only screen and (max-width: 474px) {
 	.header .name {
 		font-size: 50px;
-	}
+  }
+
 }
 
 @media only screen and (max-width: 400px) {
