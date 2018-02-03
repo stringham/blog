@@ -1,0 +1,112 @@
+.light-blue {
+	color:#60dcfb;
+}
+
+.accent-color {
+	color:#085dad;
+}
+
+.header {
+	position: relative;
+	width:100%;
+}
+
+.header .name {
+	line-height: 70px;
+	font-size: 60px;
+  margin-left: 10px;
+  position: relative;
+  top: -0.11em;
+  background: #fafafa;
+  text-decoration: none;
+}
+
+.header .name:hover {
+  text-decoration: none;
+}
+
+.header .logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo-container {
+	display: inline-block;
+  cursor: pointer;
+}
+
+.nav {
+	width: 100%;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.nav a {
+  flex-grow: 1;
+  display: flex;
+	text-align: center;
+  color: #fafafa;
+  display: inline-flex;
+  text-decoration: none;
+}
+
+.nav a span {
+  flex-grow: 1;
+}
+
+.nav-home{
+	background-color: #085dad;
+}
+
+.nav-projects{
+	background-color: #007fff;
+}
+
+.nav-about{
+	background-color: #66b2ff;
+}
+
+
+@media only screen and (max-width: 699px) {
+	#s-about .image {
+		width: 230px;
+		height: 230px;
+	}
+
+	#s-about article > div {
+		width: 280px;
+		height: 280px;
+		margin: 10px;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	#s-about .image {
+		width: 180px;
+		height: 180px;
+	}
+
+	#s-about article > div {
+		width: 200px;
+		height: 200px;
+		margin: 10px;
+	}
+}
+
+@media only screen and (max-width: 474px) {
+	.header .name {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.header .name {
+		font-size: 42px;
+	}
+}
+
+@media only screen and (max-width: 355px) {
+	.header .name {
+		font-size: 32px;
+	}
+}
