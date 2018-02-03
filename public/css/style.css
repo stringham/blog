@@ -8,7 +8,8 @@
 
 .header {
 	position: relative;
-	width:100%;
+  width:100%;
+  margin-top: 10px;
 }
 
 .header .name {
@@ -16,7 +17,7 @@
 	font-size: 60px;
   margin-left: 10px;
   position: relative;
-  top: -0.11em;
+  top: -0.15em;
   background: #fafafa;
   text-decoration: none;
 }
@@ -28,10 +29,13 @@
 .header .logo-name {
   display: flex;
   align-items: center;
+  margin-left: 5px;
 }
 
 .header .logo-container {
-	display: inline-block;
+  display: block;
+  width: 70px;
+  height: 70px;
   cursor: pointer;
 }
 
@@ -39,6 +43,7 @@
 	width: 100%;
   display: flex;
   margin-bottom: 1em;
+  height: 25px
 }
 
 .nav a {
@@ -48,6 +53,8 @@
   color: #fafafa;
   display: inline-flex;
   text-decoration: none;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .nav a span {
