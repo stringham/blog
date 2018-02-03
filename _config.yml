@@ -5,15 +5,18 @@ pygments:         true
 # Permalinks
 permalink:        pretty
 
+avatar: http://www.gravatar.com/avatar/56638a47c37d0aa95b2034fda473e119?s=256
+baseurl: "/blog"
+
 # Setup
-title:            Lanyon
-tagline:          'A Jekyll theme'
+title:            Ryan Stringham
+tagline:          Software Engineer
 description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://lanyon.getpoole.com
+url:              stringham.me/blog
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Ryan Stringham'
+  url:            https://stringham.me
 
 paginate:         5
 
@@ -21,4 +24,4 @@ paginate:         5
 version:          2.0.0
 
 github:
-  repo:           https://github.com/poole/lanyon
+  repo:           https://github.com/stringham/blog
