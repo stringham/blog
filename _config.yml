@@ -14,12 +14,12 @@ permalink:        pretty
 plugins: [jekyll-paginate]
 
 avatar: http://www.gravatar.com/avatar/56638a47c37d0aa95b2034fda473e119?s=256
-baseurl: "/blog"
+baseurl: ""
 
 # Setup
 title:            Ryan Srtringham
 tagline:
-url:              stringham.me/blog
+url:              blog.stringham.me
 
 author:
   name:           'Ryan Stringham'
