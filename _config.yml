@@ -11,13 +11,15 @@ kramdown:
 # Permalinks
 permalink:        pretty
 
+plugins: [jekyll-paginate]
+
 avatar: http://www.gravatar.com/avatar/56638a47c37d0aa95b2034fda473e119?s=256
 baseurl: "/blog"
 
 # Setup
 title:            Ryan Stringham
 tagline:          Software Engineer
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'A blog by Ryan Stringham'
 url:              stringham.me/blog
 
 author:
@@ -27,7 +29,3 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/stringham/blog
