@@ -8,8 +8,6 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-pygments:         true
-
 # Permalinks
 permalink:        pretty
 
